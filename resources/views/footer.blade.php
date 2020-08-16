@@ -10,14 +10,14 @@
             </div>
          </div>
          <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
-            <div class="px-8">
+            {{-- <div class="px-8">
                <h3 class="font-bold text-gray-900">Social</h3>
                <ul class="list-reset items-center text-sm pt-3">
                   <li>
                      <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:underline py-1" href="#">Add social links</a>
                   </li>
                </ul>
-            </div>
+            </div> --}}
          </div>
       </div>
    </div>
