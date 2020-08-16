@@ -1,8 +1,15 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+//
+@tailwind base;
 
-// Variables
-@import 'variables';
+@tailwind components;
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+.nav-menu-link {
+  @apply block pl-4 align-middle text-gray-700 no-underline border-l-4 border-transparent;
+}
+
+.nav-menu-span {
+  @apply pb-1 text-sm;
+}
+
+
+@tailwind utilities;
