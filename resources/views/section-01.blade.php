@@ -7,7 +7,7 @@
      <!--Title-->
      <div class="font-sans">
         <span class="text-base text-purple-500 font-bold">&laquo;</span> <a href="#" class="text-base md:text-sm text-purple-500 font-bold no-underline hover:underline">Back Link</a>
-        <h1 class="font-sans break-normal text-gray-900 pt-6 pb-2 text-xl">Messages</h1>
+        <h1 class="font-sans break-normal text-gray-900 pt-6 pb-2 text-xl">Section 1 - Enrollment</h1>
         <hr class="border-b border-gray-400">
      </div>
      <!--Post Content-->

@@ -18,25 +18,35 @@
             </a>
          </li>
          <li class="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
-             <a href="/tasks" class="{{ Request::path() == 'tasks' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
+             <a href="/section01" class="{{ Request::path() == 'section01' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
             {{-- <a href="/tasks" class="block pl-4 align-middle text-gray-700 no-underline hover:text-purple-500 border-l-4 border-transparent lg:hover:border-gray-400"> --}}
-            <span class="{{ Request::path() == 'tasks' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Tasks</span>
+            <span class="{{ Request::path() == 'section01' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Section 1</span>
             {{-- <span class="pb-1 md:pb-0 text-sm">Tasks</span> --}}
             </a>
          </li>
          <li class="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
-            <a href="/messages" class="{{ Request::path() == 'messages' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
-            <span class="{{ Request::path() == 'messages' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Messages</span>
+            <a href="/section02" class="{{ Request::path() == 'section02' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
+            <span class="{{ Request::path() == 'section02' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Section 2</span>
             </a>
          </li>
          <li class="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
-            <a href="/analytics" class="{{ Request::path() == 'analytics' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
-            <span class="{{ Request::path() == 'analytics' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Analytics</span>
+            <a href="/section03" class="{{ Request::path() == 'section03' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
+            <span class="{{ Request::path() == 'section03' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Section 3</span>
             </a>
          </li>
          <li class="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
-            <a href="/payments" class="{{ Request::path() == 'payments' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
-            <span class="{{ Request::path() == 'payments' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Payments</span>
+            <a href="/section04" class="{{ Request::path() == 'section04' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
+            <span class="{{ Request::path() == 'section04' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Section 4</span>
+            </a>
+         </li>
+         <li class="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
+            <a href="/section05" class="{{ Request::path() == 'section05' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
+            <span class="{{ Request::path() == 'section05' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Section 5</span>
+            </a>
+         </li>
+         <li class="py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent">
+            <a href="/section06" class="{{ Request::path() == 'section06' ? 'nav-menu-link lg:border-purple-500 lg:hover:border-purple-500' : 'nav-menu-link' }}">
+            <span class="{{ Request::path() == 'section06' ? 'nav-menu-span md:pb-0 text-gray-900 font-bold' : 'nav-menu-span md:pb-0' }}">Section 6</span>
             </a>
          </li>
       </ul>

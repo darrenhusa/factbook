@@ -17,7 +17,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::view('/tasks', 'tasks');
-Route::view('/messages', 'messages');
-Route::view('/analytics', 'analytics');
-Route::view('/payments', 'payments');
+Route::view('/section01', 'section-01');
+Route::view('/section02', 'section-02');
+Route::view('/section03', 'section-03');
+Route::view('/section04', 'section-04');
+Route::view('/section05', 'section-05');
+Route::view('/section06', 'section-06');
